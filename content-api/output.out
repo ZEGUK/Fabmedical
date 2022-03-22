@@ -140,3 +140,75 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2022-03-05 08:42:07.459  INFO 14030 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-03-05 08:42:07.460  INFO 14030 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-03-05 08:42:07.464  INFO 14030 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-03-21 14:42:06.303  INFO 6529 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on pipeline01 with PID 6529 (/home/DevOpsAdmin/fabmedical/Fabmedical/content-api/target/training-1.0-SNAPSHOT.jar started by DevOpsAdmin in /home/DevOpsAdmin/fabmedical/Fabmedical/content-api)
+2022-03-21 14:42:06.306  INFO 6529 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2022-03-21 14:42:07.681  INFO 6529 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3001 (http)
+2022-03-21 14:42:07.692  INFO 6529 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-21 14:42:07.692  INFO 6529 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-21 14:42:07.745  INFO 6529 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-21 14:42:07.745  INFO 6529 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1378 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2022-03-21 14:42:08.537  INFO 6529 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-21 14:42:08.727  INFO 6529 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3001 (http) with context path ''
+2022-03-21 14:42:08.729  INFO 6529 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 2.97 seconds (JVM running for 3.402)
+2022-03-21 14:42:15.253  INFO 6529 --- [nio-3001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-21 14:42:15.253  INFO 6529 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-21 14:42:15.260  INFO 6529 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-03-21 14:42:15.367  INFO 6529 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 14:42:15.598  INFO 6529 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 07:44:28.386  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@951603e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.388  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@486c6a05 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.389  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7bbceeda (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.390  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@796e2103 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.392  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@354fb67 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.394  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2843954a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.395  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@341574a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.396  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3cfb2d1e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.397  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c0d49a0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:28.398  WARN 6529 --- [nio-3001-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3322b8c3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-22 07:44:58.387 ERROR 6529 --- [nio-3001-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.
+### The error may exist in com/chinasofti/training/dao/SpeakerDao.java (best guess)
+### The error may involve com.chinasofti.training.dao.SpeakerDao.selectPage
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30001ms.] with root cause
+
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_312]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_312]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_312]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_312]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_312]
+	at java.net.Socket.connect(Socket.java:607) ~[na:1.8.0_312]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199) ~[mysql-connector-java-8.0.17.jar!/:8.0.17]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:719) ~[HikariCP-3.4.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:705) ~[HikariCP-3.4.2.jar!/:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_312]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_312]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_312]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_312]
+

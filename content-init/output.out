@@ -307,3 +307,28 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2022-03-07 04:24:59.823  INFO 13922 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-03-07 04:24:59.839  INFO 13922 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-03-07 04:24:59.860  INFO 13922 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-03-21 14:41:10.755  INFO 6424 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on pipeline01 with PID 6424 (/home/DevOpsAdmin/fabmedical/Fabmedical/content-init/target/training-init-1.0-SNAPSHOT.jar started by DevOpsAdmin in /home/DevOpsAdmin/fabmedical/Fabmedical/content-init)
+2022-03-21 14:41:10.759  INFO 6424 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2022-03-21 14:41:12.020  INFO 6424 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3002 (http)
+2022-03-21 14:41:12.036  INFO 6424 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-21 14:41:12.037  INFO 6424 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-21 14:41:12.110  INFO 6424 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-21 14:41:12.110  INFO 6424 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1297 ms
+2022-03-21 14:41:12.289  INFO 6424 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-21 14:41:12.447  INFO 6424 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2022-03-21 14:41:13.571  INFO 6424 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-21 14:41:13.759  INFO 6424 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3002 (http) with context path ''
+2022-03-21 14:41:13.761  INFO 6424 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 3.662 seconds (JVM running for 4.089)
